@@ -53,6 +53,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   void _toggleFavorite(String mealId) {
+    print('togglefav');
     final existingIndex =
         _favouriteMeals.indexWhere((meal) => meal.id == mealId);
     if (existingIndex >= 0) {

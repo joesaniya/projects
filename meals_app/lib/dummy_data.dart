@@ -5,56 +5,77 @@ import 'meal.dart';
 
 
 
+
 const DUMMY_CATEGORIES=const[
   Category(
     id:'c1',
     title: 'Italian',
-    color: Colors.purple
+    // color: Colors.transparent,
+    color: Colors.purple,
+    image: 'assets/images/spaghatti.jpg',
    ),
    Category(
     id:'c2',
     title: 'Quick & Easy',
-    color: Colors.red,
+    color: Colors.transparent,
+    // color: Colors.red,
+    image: 'assets/images/sandwitch.jpg',
    ),
    Category(
     id:'c3',
     title: 'Hamburgers',
-    color: Colors.orange,
+    color: Colors.transparent,
+    // color: Colors.orange,
+    image: 'assets/images/burgers.jpg'
    ),
    Category(
     id:'c4',
     title: 'German',
-    color: Colors.amber,
+    color: Colors.transparent,
+    image: 'assets/images/german.jpg'
+    // color: Colors.amber,
    ),
    Category(
     id:'c5',
     title: 'Light & Lovely',
-    color: Colors.blue,
+    color: Colors.transparent,
+    // color: Colors.blue,
+    image: 'assets/images/lovely-light1.jpg'
    ),
    Category(
     id:'c6',
     title: 'Exotic',
-    color: Colors.green,
+    color: Colors.transparent,
+    image: 'assets/images/exotic.jpg'
+    // color: Colors.green,
    ),
    Category(
     id:'c7',
     title: 'Breakfast',
-    color: Colors.lightBlue,
+    color: Colors.transparent,
+    image: 'assets/images/breakkfast.jpeg'
+    // color: Colors.lightBlue,
    ),
    Category(
     id:'c8',
     title: 'Asian',
-    color: Colors.lightGreen,
+    color: Colors.transparent,
+    image: 'assets/images/asian.jpg',
+    // color: Colors.lightGreen,
    ),
    Category(
     id:'c9',
     title: 'French',
-    color: Colors.pink,
+    color: Colors.transparent,
+    image: 'assets/images/french.jpg'
+    // color: Colors.pink,
    ),
    Category(
     id:'c10',
     title: 'Summer',
-    color: Colors.teal,
+    color: Colors.transparent,
+    image: 'assets/images/summer.jpg'
+    // color: Colors.teal,
    ),
 ];
 

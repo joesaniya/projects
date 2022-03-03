@@ -64,6 +64,7 @@ class CustomJSONListView extends State {
       List<GetUsers> usersList = jsonItems.map<GetUsers>((json) {
         return GetUsers.fromJson(json);
       }).toList();
+      print(jsonItems);
  
       return usersList;
     
@@ -76,7 +77,7 @@ class CustomJSONListView extends State {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.tealAccent[200],
+        backgroundColor: Colors.pinkAccent,
         title: Text('Fetching a Data'),
         centerTitle: true,
         leading: Icon(Icons.home),

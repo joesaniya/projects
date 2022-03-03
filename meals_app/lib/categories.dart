@@ -31,6 +31,7 @@ class _CategoriesState extends State<Categories> {
           catData.id,
           catData.title,
           catData.color,
+          catData.image,
         )).toList(),
     ),
     );
